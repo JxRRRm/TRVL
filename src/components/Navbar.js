@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import './Navbar.css'
+import './css/Navbar.css'
 import { Button } from './Button';
 
 function Navbar() {
@@ -50,13 +50,7 @@ function Navbar() {
                 Products
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMenu}>
-                Sign Up
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>

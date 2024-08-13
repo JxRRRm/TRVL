@@ -1,0 +1,52 @@
+.destinations-page {
+  width: 100%;
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: contain;
+  }
+
+  .background-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(14px);
+    opacity: 0.5;
+  }
+
+  .destinations-page > h1 {
+    width: 100%;
+    color: black;
+    margin: 0;
+    padding: 3rem  0; /* T R B L */
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .cards__container {
+    background: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 3rem;
+    width: 95%;
+  }
+  
+  .cards__items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+
+  
